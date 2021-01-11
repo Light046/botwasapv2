@@ -78,7 +78,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] RR018:SCAN THE WHATSAPP)
+   console.log(`[ ${time} ] RR018:SCAN THE WHATSAPP`)
 })
 
 client.on('credentials-updated', () => {
